@@ -211,7 +211,14 @@ legend,
 }
 /* 공통 헤더 */
 .appHeader{
-  background-color: #38302e;
+  display: grid;
+  background-color: silver;
+}
+/* 공통 맴버 링크 */
+.memberOnly{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 /* 공통 네비게이션 */
 .appNavigation{
