@@ -212,13 +212,22 @@ legend,
 /* 공통 헤더 */
 .appHeader{
   display: grid;
-  background-color: silver;
 }
 /* 공통 맴버 링크 */
 .memberOnly{
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
+}
+.memberOnly .divider{
+  margin: 0 5px;
+}
+/* 공통 검색 폼 */
+input[type="search"]{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 1px 5px;
+  height: 35px;
 }
 /* 공통 네비게이션 */
 .appNavigation{
