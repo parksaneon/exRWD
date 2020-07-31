@@ -87,7 +87,7 @@ body{
   grid-area: 1 / 1 / 2 / span 4;
 }
 .book__cover{
-  margin: 0 40px;
+  margin: 10px 40px;
 }
 /* 데스크탑 새소식 */
 .news{
