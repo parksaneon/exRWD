@@ -7,7 +7,9 @@ body{
   justify-content: center;
 }
 .appHeader, .appMain, .menu__list{
-  width: 1000px;
+  width: 78.125%;
+  min-width: 1000px;
+  max-width: 1800px;
 }
 .appNavigation{
   width: 100%;
@@ -100,6 +102,9 @@ body{
 /* 데스크탑 인기사이트 */
 .favorite{
   grid-area: 2 / 10 / 3 / span 3;
+}
+.favorite__list a:hover::before, .favorite__list a:focus::before{
+  right: -10px;
 }
 /* 데스크탑 트위터 */
 .twitter{
